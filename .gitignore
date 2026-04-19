@@ -1,2 +1,20 @@
-/.apt_generated/
-/target/
+# Eclipse
+.metadata
+bin/
+tmp/
+*.class
+*.log
+.settings/
+
+# Maven
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IntelliJ (just in case)
+.idea/
+
+# Node (Appium uses node)
+node_modules/
