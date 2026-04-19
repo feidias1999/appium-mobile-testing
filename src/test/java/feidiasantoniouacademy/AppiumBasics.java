@@ -33,7 +33,7 @@ public class AppiumBasics {
 		
 		//Actual automation starts
 		
-		driver.quit(); 
+		driver.quit();
 		service.stop(); //stop server
 	
 		
