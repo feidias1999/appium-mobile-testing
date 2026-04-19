@@ -22,7 +22,7 @@ public class AppiumBasics {
 		//AndroidDriver , iOSDriver
 		//Appium code -> Appium Server -> Mobile
 		
-		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("//Users//feidi//node_modules//appium//build//lib//main.js")).withIPAddress("127.0.0.1").usingPort(4723).build();
+		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\feidi\\\\node_modules\\appium\\build\\lib\\main.js")).withIPAddress("127.0.0.1").usingPort(4723).build();
 		service.start();
 		
 		UiAutomator2Options options = new UiAutomator2Options();
