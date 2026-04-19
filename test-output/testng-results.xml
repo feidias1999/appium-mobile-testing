@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T14:51:43 EEST" name="Default suite" finished-at="2026-04-19T14:52:11 EEST" duration-ms="28533">
+  <suite started-at="2026-04-19T17:01:57 EEST" name="Default suite" finished-at="2026-04-19T17:02:40 EEST" duration-ms="42870">
     <groups>
     </groups>
-    <test started-at="2026-04-19T14:51:43 EEST" name="Default test" finished-at="2026-04-19T14:52:11 EEST" duration-ms="28533">
+    <test started-at="2026-04-19T17:01:57 EEST" name="Default test" finished-at="2026-04-19T17:02:40 EEST" duration-ms="42870">
       <class name="feidiasantoniouacademy.AppiumBasics">
-        <test-method signature="AppiumTest()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@57c758ac]" started-at="2026-04-19T14:51:43 EEST" name="AppiumTest" finished-at="2026-04-19T14:52:11 EEST" duration-ms="28487" status="FAIL">
+        <test-method signature="AppiumTest()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@57c758ac]" started-at="2026-04-19T17:01:57 EEST" name="AppiumTest" finished-at="2026-04-19T17:02:40 EEST" duration-ms="42766" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[Could not start a new session. Response code 500. Message: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command ''C:\Users\feidi\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.15'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
-Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]]>
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command ''C:\Users\feidi\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.15'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
-Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -38,7 +38,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
 at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
 at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
-at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:32)
+at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:33)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

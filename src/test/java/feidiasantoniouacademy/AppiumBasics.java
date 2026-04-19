@@ -7,6 +7,7 @@ import java.net.URISyntaxException;
 
 import org.testng.annotations.Test;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -27,11 +28,13 @@ public class AppiumBasics {
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("Feidiasemulator"); //emulator
-		options.setApp("//Users//feidi//eclipse//Appium//src//test//java//resources//ApiDemos-debug.apk");
+		options.setApp("C:\\Users\\feidi\\eclipse\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 		
 		AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 		
 		//Actual automation starts
+		//Xpath, id, accessibilityId, classname, androidUIAutomator
+		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 		
 		driver.quit();
 		service.stop(); //stop server

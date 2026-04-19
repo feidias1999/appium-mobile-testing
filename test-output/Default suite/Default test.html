@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 19 14:51:43 EEST 2026</td>
+<td>Started on:</td><td>Sun Apr 19 17:01:57 EEST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28533 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42870 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,13 +77,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='feidiasantoniouacademy.AppiumBasics.AppiumTest()'><b>AppiumTest</b><br>Test class: feidiasantoniouacademy.AppiumBasics</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\Users\feidi\AppData\Local\Android\Sdk\platform-tools\adb.exe&apos; -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability 
 Host info: host: &apos;FEIDIAS1999-LAP&apos;, ip: &apos;192.168.0.15&apos;
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
-Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -96,7 +96,7 @@ Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName:
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
-	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:32)
+	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -123,14 +123,14 @@ Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace726408598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace726408598'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+</pre></div><a href='#' onClick='toggleBox("stack-trace85415531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace85415531'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\Users\feidi\AppData\Local\Android\Sdk\platform-tools\adb.exe&apos; -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability 
 Host info: host: &apos;FEIDIAS1999-LAP&apos;, ip: &apos;192.168.0.15&apos;
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
-Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -143,7 +143,7 @@ Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName:
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
-	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:32)
+	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -171,7 +171,7 @@ Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>28</td>
+<td>42</td>
 <td>feidiasantoniouacademy.AppiumBasics@57c758ac</td></tr>
 </table><p>
 </body>

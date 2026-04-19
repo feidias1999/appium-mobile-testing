@@ -9,17 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,533</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">42,870</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">feidiasantoniouacademy.AppiumBasics</td><td><a href="#m0">AppiumTest</a></td><td rowspan="1">1776599503046</td><td rowspan="1">28487</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">feidiasantoniouacademy.AppiumBasics</td><td><a href="#m0">AppiumTest</a></td><td rowspan="1">1776607317747</td><td rowspan="1">42766</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">feidiasantoniouacademy.AppiumBasics#AppiumTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+<h2>Default test</h2><h3 id="m0">feidiasantoniouacademy.AppiumBasics#AppiumTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\Users\feidi\AppData\Local\Android\Sdk\platform-tools\adb.exe&apos; -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability 
 Host info: host: &apos;FEIDIAS1999-LAP&apos;, ip: &apos;192.168.0.15&apos;
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
-Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -32,7 +32,7 @@ Capabilities {appium:app: //Users//feidi//eclipse//Ap..., appium:automationName:
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
 	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
 	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
-	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:32)
+	at feidiasantoniouacademy.AppiumBasics.AppiumTest(AppiumBasics.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
