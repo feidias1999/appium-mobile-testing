@@ -1,4 +1,4 @@
-# Appium Mobile Testing (Android/IOS) from Scratch + Frameworks
+# Appium Mobile Automation Testing (Android/IOS) from Scratch + Frameworks
 
 ## Technologies
 - Java
