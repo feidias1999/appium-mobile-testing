@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-04T20:13:04 EEST" name="Default suite" finished-at="2026-05-04T20:13:26 EEST" duration-ms="21731">
+  <suite started-at="2026-05-04T20:26:18 EEST" name="Default suite" finished-at="2026-05-04T20:27:38 EEST" duration-ms="80526">
     <groups>
     </groups>
-    <test started-at="2026-05-04T20:13:04 EEST" name="Default test" finished-at="2026-05-04T20:13:26 EEST" duration-ms="21731">
+    <test started-at="2026-05-04T20:26:18 EEST" name="Default test" finished-at="2026-05-04T20:27:38 EEST" duration-ms="80526">
       <class name="feidiasantoniouacademy.AppiumBasics">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:13:04 EEST" name="ConfigureAppium" finished-at="2026-05-04T20:13:26 EEST" duration-ms="21662" status="FAIL">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:26:18 EEST" name="ConfigureAppium" finished-at="2026-05-04T20:27:38 EEST" duration-ms="80377" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[Could not start a new session. Response code 500. Message: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.6'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
@@ -19,7 +19,7 @@ Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\fei
 Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.6'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
@@ -69,10 +69,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="WifiSettingsName()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:13:26 EEST" name="WifiSettingsName" finished-at="2026-05-04T20:13:26 EEST" duration-ms="1" status="SKIP">
+        <test-method signature="WifiSettingsName()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:27:38 EEST" name="WifiSettingsName" finished-at="2026-05-04T20:27:38 EEST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[Could not start a new session. Response code 500. Message: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.6'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
@@ -81,7 +81,7 @@ Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\fei
 Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:automationName: UIAutomator2, appium:deviceName: Feidiasemulator, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not find a connected Android device in 20000ms 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability 
 Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.6'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
@@ -131,7 +131,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WifiSettingsName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:13:26 EEST" name="tearDown" finished-at="2026-05-04T20:13:26 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.AppiumBasics@1ea9f6af]" started-at="2026-05-04T20:27:38 EEST" name="tearDown" finished-at="2026-05-04T20:27:38 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
