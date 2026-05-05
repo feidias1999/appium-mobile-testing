@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feidiasantoniouacademy.LongPress">
+      <class name="feidiasantoniouacademy.ScrollDemo">
         <methods>
+          <include name="ScrollDemoTest"/>
           <include name="tearDown"/>
-          <include name="LongPressGesture"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- feidiasantoniouacademy.LongPress -->
+      </class> <!-- feidiasantoniouacademy.ScrollDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

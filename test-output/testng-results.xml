@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T12:10:31 EEST" name="Default suite" finished-at="2026-05-05T12:11:18 EEST" duration-ms="47574">
+  <suite started-at="2026-05-05T22:35:19 EEST" name="Default suite" finished-at="2026-05-05T22:35:36 EEST" duration-ms="17840">
     <groups>
     </groups>
-    <test started-at="2026-05-05T12:10:31 EEST" name="Default test" finished-at="2026-05-05T12:11:18 EEST" duration-ms="47574">
-      <class name="feidiasantoniouacademy.LongPress">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.LongPress@56620197]" started-at="2026-05-05T12:10:31 EEST" name="ConfigureAppium" finished-at="2026-05-05T12:11:02 EEST" duration-ms="30892" status="PASS">
+    <test started-at="2026-05-05T22:35:19 EEST" name="Default test" finished-at="2026-05-05T22:35:36 EEST" duration-ms="17840">
+      <class name="feidiasantoniouacademy.SwipeDemo">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:19 EEST" name="ConfigureAppium" finished-at="2026-05-05T22:35:29 EEST" duration-ms="9988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:feidiasantoniouacademy.LongPress@56620197]" started-at="2026-05-05T12:11:02 EEST" name="LongPressGesture" finished-at="2026-05-05T12:11:13 EEST" duration-ms="11598" status="PASS">
+        <test-method signature="SwipeDemoTest()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:29 EEST" name="SwipeDemoTest" finished-at="2026-05-05T22:35:35 EEST" duration-ms="6534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.LongPress@56620197]" started-at="2026-05-05T12:11:13 EEST" name="tearDown" finished-at="2026-05-05T12:11:18 EEST" duration-ms="4825" status="PASS">
+        </test-method> <!-- SwipeDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:35 EEST" name="tearDown" finished-at="2026-05-05T22:35:36 EEST" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feidiasantoniouacademy.LongPress -->
+      </class> <!-- feidiasantoniouacademy.SwipeDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
