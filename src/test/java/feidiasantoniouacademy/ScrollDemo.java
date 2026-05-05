@@ -25,22 +25,12 @@ public class ScrollDemo extends BaseTest {
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 		
 		//where to scroll is known prior
-//		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+	driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
 		
 		// Java - No prior idea
-		boolean canScrollMore;
-		do
-		{
-		 canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
-		    "left", 100, "top", 100, "width", 200, "height", 200,
-		    "direction", "down",
-		    "percent", 1.0
-		));
-		}while(canScrollMore);
+		scrollToEndAction();
 		
 		
-		Thread.sleep(2000);
-	
 	}
 
 }
