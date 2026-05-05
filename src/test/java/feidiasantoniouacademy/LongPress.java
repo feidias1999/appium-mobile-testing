@@ -28,7 +28,7 @@ public class LongPress extends BaseTest {
 		WebElement ele = driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
 		longPressAction(ele);
 		String menuText = driver.findElement(By.id("android:id/title")).getText();
-		Assert.assertEquals(menuText, "Sample Menu");
+		Assert.assertEquals(menuText, "Sample menu");
 		Assert.assertTrue(driver.findElement(By.id("android:id/title")).isDisplayed());
 	
 		
