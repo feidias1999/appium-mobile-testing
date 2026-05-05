@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T22:35:19 EEST" name="Default suite" finished-at="2026-05-05T22:35:36 EEST" duration-ms="17840">
+  <suite started-at="2026-05-05T23:06:14 EEST" name="Default suite" finished-at="2026-05-05T23:07:26 EEST" duration-ms="72088">
     <groups>
     </groups>
-    <test started-at="2026-05-05T22:35:19 EEST" name="Default test" finished-at="2026-05-05T22:35:36 EEST" duration-ms="17840">
-      <class name="feidiasantoniouacademy.SwipeDemo">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:19 EEST" name="ConfigureAppium" finished-at="2026-05-05T22:35:29 EEST" duration-ms="9988" status="PASS">
+    <test started-at="2026-05-05T23:06:14 EEST" name="Default test" finished-at="2026-05-05T23:07:26 EEST" duration-ms="72088">
+      <class name="feidiasantoniouacademy.DragDropDemo">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.DragDropDemo@1afd44cb]" started-at="2026-05-05T23:06:14 EEST" name="ConfigureAppium" finished-at="2026-05-05T23:07:15 EEST" duration-ms="61238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="SwipeDemoTest()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:29 EEST" name="SwipeDemoTest" finished-at="2026-05-05T22:35:35 EEST" duration-ms="6534" status="PASS">
+        <test-method signature="DragDropTest()[pri:0, instance:feidiasantoniouacademy.DragDropDemo@1afd44cb]" started-at="2026-05-05T23:07:15 EEST" name="DragDropTest" finished-at="2026-05-05T23:07:23 EEST" duration-ms="7693" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwipeDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.SwipeDemo@55b7a4e0]" started-at="2026-05-05T22:35:35 EEST" name="tearDown" finished-at="2026-05-05T22:35:36 EEST" duration-ms="1192" status="PASS">
+        </test-method> <!-- DragDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.DragDropDemo@1afd44cb]" started-at="2026-05-05T23:07:23 EEST" name="tearDown" finished-at="2026-05-05T23:07:26 EEST" duration-ms="2916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feidiasantoniouacademy.SwipeDemo -->
+      </class> <!-- feidiasantoniouacademy.DragDropDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
