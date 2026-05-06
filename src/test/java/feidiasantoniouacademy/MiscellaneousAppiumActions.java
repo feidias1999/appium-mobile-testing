@@ -7,10 +7,15 @@ import java.net.URISyntaxException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.DeviceRotation;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.google.common.collect.ImmutableMap;
+
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 
@@ -19,9 +24,15 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 public class MiscellaneousAppiumActions extends BaseTest {
 	
 	public void Miscellaneous() throws MalformedURLException, URISyntaxException {
-	
-		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();
+		
+		//adb shell dumpsys window | find "mCurrentFocus" - Windows
+		//App Package & App Activity
+		
+		Activity activity = new Activity("io.appium.android.apis", "io.appium.android.apis.preference.PreferenceDependencies");
+		//driver.startActivity(activity);
+		((JavascriptExecutor) driver).executeScript("mobile: startActivity", ImmutableMap.of("intent", "io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies"));
+		//driver.findElement(AppiumBy.accessibilityId("Preference")).click();
+		//driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();
 		driver.findElement(By.id("android:id/checkbox")).click();
 		DeviceRotation landScape = new DeviceRotation(0, 0, 90);
 		driver.rotate(landScape);
