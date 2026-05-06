@@ -34,6 +34,6 @@ public class MiscellaneousAppiumActions extends BaseTest {
 	
 		
 	}
-s
+
 }
  
