@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feidiasantoniouacademy.DragDropDemo">
+      <class name="feidiasantoniouacademy.eCommerce_tc_1">
         <methods>
+          <include name="FillForm"/>
           <include name="tearDown"/>
           <include name="ConfigureAppium"/>
-          <include name="DragDropTest"/>
         </methods>
-      </class> <!-- feidiasantoniouacademy.DragDropDemo -->
+      </class> <!-- feidiasantoniouacademy.eCommerce_tc_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
