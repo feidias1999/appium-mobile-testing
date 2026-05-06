@@ -1,0 +1,12 @@
+package feidiasantoniouacademy;
+
+import org.testng.annotations.Test;
+
+public class eCommerce_tc_1 extends BaseTest {
+	
+	@Test
+	public void FillForm() {
+		
+	}
+
+}
