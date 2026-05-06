@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-06T23:24:29 EEST" name="Default suite" finished-at="2026-05-06T23:25:19 EEST" duration-ms="50657">
+  <suite started-at="2026-05-06T23:45:04 EEST" name="Default suite" finished-at="2026-05-06T23:45:42 EEST" duration-ms="37953">
     <groups>
     </groups>
-    <test started-at="2026-05-06T23:24:29 EEST" name="Default test" finished-at="2026-05-06T23:25:19 EEST" duration-ms="50657">
+    <test started-at="2026-05-06T23:45:04 EEST" name="Default test" finished-at="2026-05-06T23:45:42 EEST" duration-ms="37953">
       <class name="feidiasantoniouacademy.eCommerce_tc_1">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@6eda5c9]" started-at="2026-05-06T23:24:29 EEST" name="ConfigureAppium" finished-at="2026-05-06T23:24:45 EEST" duration-ms="16713" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@5f058f00]" started-at="2026-05-06T23:45:04 EEST" name="ConfigureAppium" finished-at="2026-05-06T23:45:16 EEST" duration-ms="11800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@6eda5c9]" started-at="2026-05-06T23:24:45 EEST" name="FillForm" finished-at="2026-05-06T23:25:17 EEST" duration-ms="31858" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@5f058f00]" started-at="2026-05-06T23:45:16 EEST" name="FillForm" finished-at="2026-05-06T23:45:41 EEST" duration-ms="24798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@6eda5c9]" started-at="2026-05-06T23:25:17 EEST" name="tearDown" finished-at="2026-05-06T23:25:19 EEST" duration-ms="1992" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_1@5f058f00]" started-at="2026-05-06T23:45:41 EEST" name="tearDown" finished-at="2026-05-06T23:45:42 EEST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
