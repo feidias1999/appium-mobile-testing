@@ -34,10 +34,7 @@ public class DragDropDemo extends BaseTest {
 		));
 		
 		String result = driver.findElement(By.id("io.appium.android.apis:id/drag_result_text")).getText();
-		Assert.assertEquals(result, "Dropped!");
-
-		
-		
+		Assert.assertEquals(result, "Dropped!");	
 	}
 
 }

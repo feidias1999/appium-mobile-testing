@@ -35,9 +35,6 @@ public class AppiumBasics extends BaseTest {
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
 		//set wifi name
 		
-
-	
-		
 	}
 
 }

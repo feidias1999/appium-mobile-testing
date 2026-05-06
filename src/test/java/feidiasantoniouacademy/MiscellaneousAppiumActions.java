@@ -49,12 +49,7 @@ public class MiscellaneousAppiumActions extends BaseTest {
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		driver.pressKey(new KeyEvent(AndroidKey.HOME));
 		
-		
-		
 		//set wifi name
-		
-
-	
 		
 	}
 

@@ -29,7 +29,6 @@ public class ScrollDemo extends BaseTest {
 		
 		// Java - No prior idea
 		scrollToEndAction();
-
 	}
 
 }
