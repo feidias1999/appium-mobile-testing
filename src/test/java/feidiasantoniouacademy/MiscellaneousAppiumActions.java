@@ -11,6 +11,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 
 
 @Test
@@ -26,8 +28,18 @@ public class MiscellaneousAppiumActions extends BaseTest {
 		driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
 		String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
 		Assert.assertEquals(alertTitle, "WiFi settings");
-		driver.findElement(By.id("android:id/edit")).sendKeys("Feidias Wifi");
+		//copy paste
+		// copy to clipboard - paste it clipboard
+		
+		driver.setClipboardText("Feidias Wifi");
+		driver.findElement(By.id("android:id/edit")).sendKeys(driver.getClipboardText());
+		driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
+		driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		driver.pressKey(new KeyEvent(AndroidKey.HOME));
+		
+		
+		
 		//set wifi name
 		
 
