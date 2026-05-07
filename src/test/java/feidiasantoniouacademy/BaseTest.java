@@ -32,7 +32,9 @@ public class BaseTest {
 			
 			UiAutomator2Options options = new UiAutomator2Options();
 			options.setDeviceName("Feidiasemulator"); //emulator
-//			options.setApp("C:\\Users\\feidi\\eclipse\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+			options.setChromedriverExecutable("C:\\Users\\feidi\\Documents\\chromedriver.exe");
+//			options.setCapability("chromedriverAutodownload", true);
+			//options.setApp("C:\\Users\\feidi\\eclipse\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 			options.setApp("C:\\Users\\feidi\\eclipse\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 
 			
