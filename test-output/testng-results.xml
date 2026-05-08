@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-08T17:41:11 EEST" name="Default suite" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33619">
+  <suite started-at="2026-05-08T18:02:53 EEST" name="Default suite" finished-at="2026-05-08T18:03:39 EEST" duration-ms="45878">
     <groups>
     </groups>
-    <test started-at="2026-05-08T17:41:11 EEST" name="Default test" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33619">
+    <test started-at="2026-05-08T18:02:53 EEST" name="Default test" finished-at="2026-05-08T18:03:39 EEST" duration-ms="45878">
       <class name="feidiasantoniouacademy.MobileBrowserTest">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:11 EEST" name="ConfigureAppium" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33503" status="FAIL">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@5119fb47]" started-at="2026-05-08T18:02:53 EEST" name="ConfigureAppium" finished-at="2026-05-08T18:03:39 EEST" duration-ms="45699" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="browserTest()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:45 EEST" name="browserTest" finished-at="2026-05-08T17:41:45 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="browserTest()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@5119fb47]" started-at="2026-05-08T18:03:39 EEST" name="browserTest" finished-at="2026-05-08T18:03:39 EEST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
@@ -131,7 +131,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:45 EEST" name="tearDown" finished-at="2026-05-08T17:41:45 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@5119fb47]" started-at="2026-05-08T18:03:39 EEST" name="tearDown" finished-at="2026-05-08T18:03:39 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
