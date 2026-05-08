@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feidiasantoniouacademy.eCommerce_tc_4_Hybrid">
+      <class name="feidiasantoniouacademy.MobileBrowserTest">
         <methods>
           <include name="tearDown"/>
-          <include name="FillForm"/>
+          <include name="browserTest"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- feidiasantoniouacademy.eCommerce_tc_4_Hybrid -->
+      </class> <!-- feidiasantoniouacademy.MobileBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

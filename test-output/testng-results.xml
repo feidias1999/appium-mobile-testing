@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-07T23:05:10 EEST" name="Default suite" finished-at="2026-05-07T23:06:18 EEST" duration-ms="68532">
+  <suite started-at="2026-05-08T17:41:11 EEST" name="Default suite" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33619">
     <groups>
     </groups>
-    <test started-at="2026-05-07T23:05:10 EEST" name="Default test" finished-at="2026-05-07T23:06:18 EEST" duration-ms="68532">
-      <class name="feidiasantoniouacademy.eCommerce_tc_4_Hybrid">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_4_Hybrid@192d43ce]" started-at="2026-05-07T23:05:10 EEST" name="ConfigureAppium" finished-at="2026-05-07T23:05:36 EEST" duration-ms="26217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_4_Hybrid@192d43ce]" started-at="2026-05-07T23:05:36 EEST" name="FillForm" finished-at="2026-05-07T23:06:16 EEST" duration-ms="40312" status="FAIL">
-          <exception class="io.appium.java_client.NoSuchContextException">
+    <test started-at="2026-05-08T17:41:11 EEST" name="Default test" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33619">
+      <class name="feidiasantoniouacademy.MobileBrowserTest">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:11 EEST" name="ConfigureAppium" finished-at="2026-05-08T17:41:45 EEST" duration-ms="33503" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}}
+              <![CDATA[Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
+Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.3'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [3f238eeb-70c7-4ad5-90b5-1661c2be4268, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
-Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\feidi\eclipse\Appi..., automationName: UIAutomator2, chromedriverExecutable: C:\Users\feidi\Documents\ch..., deviceName: Feidiasemulator, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 3f238eeb-70c7-4ad5-90b5-1661c2be4268]]>
+Command: [null, newSession {capabilities=[Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]}]
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.appium.java_client.NoSuchContextException: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}}
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
+Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.3'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [3f238eeb-70c7-4ad5-90b5-1661c2be4268, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
-Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\feidi\eclipse\Appi..., automationName: UIAutomator2, chromedriverExecutable: C:\Users\feidi\Documents\ch..., deviceName: Feidiasemulator, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 3f238eeb-70c7-4ad5-90b5-1661c2be4268
-at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:47)
-at feidiasantoniouacademy.eCommerce_tc_4_Hybrid.FillForm(eCommerce_tc_4_Hybrid.java:64)
+Command: [null, newSession {capabilities=[Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]}]
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+at feidiasantoniouacademy.BrowserBaseTest.ConfigureAppium(BrowserBaseTest.java:38)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -58,34 +63,79 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.WebDriverException: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}}
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="browserTest()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:45 EEST" name="browserTest" finished-at="2026-05-08T17:41:45 EEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
+Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.3'
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [3f238eeb-70c7-4ad5-90b5-1661c2be4268, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
-Capabilities {appium:app: C:\Users\feidi\eclipse\Appi..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\feidi\eclipse\Appi..., automationName: UIAutomator2, chromedriverExecutable: C:\Users\feidi\Documents\ch..., deviceName: Feidiasemulator, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 3f238eeb-70c7-4ad5-90b5-1661c2be4268
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+Command: [null, newSession {capabilities=[Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]}]
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: The response to the /status API is not valid: {"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26200"}} 
+Host info: host: 'FEIDIAS1999-LAP', ip: '192.168.0.3'
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}]}]
+Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\feidi\Documents\ch..., appium:deviceName: Feidiasemulator, browserName: Chrome, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:225)
-at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:44)
-... 27 more
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:199)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+at feidiasantoniouacademy.BrowserBaseTest.ConfigureAppium(BrowserBaseTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.appium.java_client.NoSuchContextException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.eCommerce_tc_4_Hybrid@192d43ce]" started-at="2026-05-07T23:06:16 EEST" name="tearDown" finished-at="2026-05-07T23:06:18 EEST" duration-ms="1871" status="PASS">
+        </test-method> <!-- browserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feidiasantoniouacademy.MobileBrowserTest@1ea9f6af]" started-at="2026-05-08T17:41:45 EEST" name="tearDown" finished-at="2026-05-08T17:41:45 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feidiasantoniouacademy.eCommerce_tc_4_Hybrid -->
+      </class> <!-- feidiasantoniouacademy.MobileBrowserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
