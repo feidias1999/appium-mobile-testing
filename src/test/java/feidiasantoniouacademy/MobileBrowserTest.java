@@ -24,5 +24,4 @@ public class MobileBrowserTest extends BrowserBaseTest {
 		String text = driver.findElement(By.cssSelector("a[href*='products/3']")).getText();
 		Assert.assertEquals(text, "Devops");
 	}
-
 }
