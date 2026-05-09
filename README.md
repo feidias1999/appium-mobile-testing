@@ -9,6 +9,8 @@ Selenium
 Appium (v2)
 TestNG
 UiAutomator2 (Android)
+XCUITest (IOS)
+
 
 It is designed as a starting point for building a scalable mobile automation framework.
 
