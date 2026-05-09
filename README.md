@@ -5,6 +5,7 @@
 This project demonstrates mobile test automation using:
 
 Java
+Selenium
 Appium (v2)
 TestNG
 UiAutomator2 (Android)
