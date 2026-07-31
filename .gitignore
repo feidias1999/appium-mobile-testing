@@ -1,2 +1,5 @@
 /.apt_generated/
 /target/
+/.vscode/
+/maven/
+/maven.zip

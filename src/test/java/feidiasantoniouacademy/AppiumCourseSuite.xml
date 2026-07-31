@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Appium Course Suite">
+    <test name="Basic Appium examples">
+        <classes>
+            <class name="feidiasantoniouacademy.AppiumBasics" />
+            <class name="feidiasantoniouacademy.DragDropDemo" />
+            <class name="feidiasantoniouacademy.LongPress" />
+            <class name="feidiasantoniouacademy.ScrollDemo" />
+            <class name="feidiasantoniouacademy.SwipeDemo" />
+            <class name="feidiasantoniouacademy.MiscellaneousAppiumActions" />
+        </classes>
+    </test>
+
+    <test name="E-commerce examples">
+        <classes>
+            <class name="feidiasantoniouacademy.eCommerce_tc_1" />
+            <class name="feidiasantoniouacademy.eCommerce_tc_2" />
+            <class name="feidiasantoniouacademy.eCommerce_tc_3" />
+            <class name="feidiasantoniouacademy.eCommerce_tc_4_Hybrid" />
+        </classes>
+    </test>
+
+    <test name="Mobile browser example">
+        <classes>
+            <class name="feidiasantoniouacademy.MobileBrowserTest" />
+        </classes>
+    </test>
+</suite>

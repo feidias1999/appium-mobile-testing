@@ -6,17 +6,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import com.google.common.collect.ImmutableMap;
-
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -29,17 +21,26 @@ public class IOSBaseTest {
 		
 		@BeforeClass
 		public void ConfigureAppium() throws MalformedURLException, URISyntaxException {
-			service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\feidi\\\\node_modules\\appium\\build\\lib\\main.js")).withIPAddress("127.0.0.1").usingPort(4723).build();
+			String appiumJsPath = AppiumTestConfig.getAppiumJsPath();
+			AppiumServiceBuilder builder = new AppiumServiceBuilder()
+					.withIPAddress(AppiumTestConfig.getAppiumHost())
+					.usingPort(AppiumTestConfig.getAppiumPort());
+			if (!appiumJsPath.isBlank()) {
+				builder.withAppiumJS(new File(appiumJsPath));
+			}
+			service = builder.build();
 			service.start();
 			
 			XCUITestOptions options = new XCUITestOptions();
-			options.setDeviceName("iPhone 13 Pro");
-			options.setApp("C:\\Users\\feidi\\Desktop\\UIKitCatalog.app");
-			options.setPlatformVersion("15.5");
-			//Appium - WebDriver Agent -> IOS Apps
+			options.setDeviceName(AppiumTestConfig.getIOSDeviceName());
+			String appPath = AppiumTestConfig.getIOSAppPath();
+			if (!appPath.isBlank()) {
+				options.setApp(appPath);
+			}
+			options.setPlatformVersion(AppiumTestConfig.getIOSPlatformVersion());
 			options.setWdaLaunchTimeout(Duration.ofSeconds(20));
 			
-			driver = new IOSDriver(new URI("http://127.0.0.1:4723").toURL(), options);
+			driver = new IOSDriver(new URI(AppiumTestConfig.getAppiumServerUrl()).toURL(), options);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}		
 
